@@ -1,0 +1,62 @@
+@media (max-width: 600px) {
+  body {
+    background-color: chrome;
+    border: 10px red solid;
+  }
+}
+#welcome-section {
+  height: 30vh;
+  background-color: aqua;
+  display: flex;
+}
+h1 {
+  background-color: aqua;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#navbar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: darksalmon;
+}
+
+#navbar a {
+  border: 10px solid brown;
+  font-size: large;
+  color: rgb(0, 35, 212);
+}
+* {
+  background-color: rgb(255, 255, 255);
+}
+
+#projects {
+  text-decoration: darkslateblue;
+  text-align: center;
+}
+#projects h2 {
+  background-color: rgb(202, 108, 112);
+  font-family: monospace;
+  height: 40px;
+}
+#class-title {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#class-tittle img {
+  width: 300px;
+  height: 300px;
+}
+
+#link {
+  font-style: italic;
+  text-underline-offset: 40;
+  font-size: medium;
+  right: 0;
+}
+#other-comment {
+}
